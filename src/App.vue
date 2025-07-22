@@ -10,7 +10,7 @@ import Contatos from './views/Contatos.vue';
   <header>
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
-    <div class="sm:flex flex-col wrapper">     
+    <div class="max-w-[2500px] sm:flex flex-col wrapper">     
       <!-- <nav-bar></nav-bar>  -->
       <inicial-view></inicial-view>
       <projetos-view></projetos-view>
