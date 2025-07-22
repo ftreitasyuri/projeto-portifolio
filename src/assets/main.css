@@ -9,7 +9,36 @@
   --color-fifth: #e8f1f2;
 }
 
+/* 
 body{
   color: white;
   background-color: #13293D;
+} */
+
+/* body {
+  color: white;
+  background: linear-gradient(180deg,
+      #13293D 0%,
+      #006494 25%,
+      #247ba0 50%,
+      #1b98e0 75%,
+      #e8f1f2 100%);
+  color: #13293D;
+} */
+
+body {
+  background: radial-gradient(circle at center,
+      #1b98e0 0%,
+      #247ba0 30%,
+      #006494 40%,
+      #13293D 120%);
+  color: #e8f1f2;
 }
+/* body {
+  background: radial-gradient(circle at center,
+      #1b98e0 0%,
+      #247ba0 30%,
+      #006494 60%,
+      #13293D 100%);
+  color: #e8f1f2;
+} */
