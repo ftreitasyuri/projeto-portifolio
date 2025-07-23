@@ -14,7 +14,7 @@ const dadosWeather = ref({});
 
 // Função para obter os dados do clima
 // const key = import.meta.env.VITE_API_KEY_OPEN_WEATHER;
-const key = 'ec3e5be3d5fd36e296904389ad345a7c';
+const key = import.meta.env.VITE_API_KEY_OPEN_WEATHER;
 const cidade = 'salvador';
 const dadosClima = async () =>{
   try {
