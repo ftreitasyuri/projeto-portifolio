@@ -8,10 +8,10 @@ import Contatos from './views/Contatos.vue';
 </script>
 
 <template>
-  <header>
+  <header v-if="$route.path === '/'">
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
-    <div class="max-w-[2500px] sm:flex flex-col wrapper">     
+    <div class="max-w-[2500px] sm:flex flex-col wrapper">
       <!-- <nav-bar></nav-bar>  -->
       <inicial-view></inicial-view>
       <projetos-view></projetos-view>
@@ -20,7 +20,15 @@ import Contatos from './views/Contatos.vue';
 
     </div>
   </header>
+  <header v-else>
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
+
+    <div class="max-w-[2500px] sm:flex flex-col wrapper">
+      <navBar/>
+      <RouterView />
+    </div>
+  </header>
 
 
-  <!-- <RouterView /> -->
+
 </template>

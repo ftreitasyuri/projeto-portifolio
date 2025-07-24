@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import InicialView from '../views/InicialView.vue';
 import ProjetosView from '@/views/ProjetosView.vue';
 import Contatos from '@/views/Contatos.vue';
+import CrmSMTE from '@/views/CrmSMTE.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,7 +21,12 @@ const router = createRouter({
       path: '/contatos',
       name: 'contatos',
       component: Contatos,
-    }
+    },
+    {
+      path: '/crm-smte',
+      name: 'crm-smte',
+      component: CrmSMTE,
+    },
   
   ],
 })

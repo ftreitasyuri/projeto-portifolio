@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router';
 import { ref, onMounted } from 'vue';
 import getWeather from '@/services/getWeather';
+import router from '@/router';
 
 // Exemplo de url completa para a API do OpenWeather
 //http://api.openweathermap.org/data/2.5/weather?q=salvador&appid=ec3e5be3d5fd36e296904389ad345a7c
@@ -48,7 +49,16 @@ function scrollTo(id) {
 
 
         <ul class="flex justify-center items-center gap-15 min-h-[10vh] ">
-            <li class="hover:cursor-pointer text-2xl"><a @click.prevent="scrollTo('inicio')">Início</a></li>
+            <div v-if="$router.path ==! 'crm-smte'" >
+                <li class="hover:cursor-pointer text-2xl"><a @click.prevent="scrollTo('inicio')">Início</a></li>
+            </div>
+<!--  v-if="$route.path === '/'"> -->
+            <div v-else>
+                <router-link to="/">
+                    <li class="hover:cursor-pointer text-2xl">Início</li>
+                </router-link>
+
+            </div>
             <li class="hover:cursor-pointer text-2xl"><a @click.prevent="scrollTo('projetos')">Projetos</a></li>
             <li class="hover:cursor-pointer text-2xl"><a @click.prevent="scrollTo('contatos')">Contatos</a></li>
         </ul>
@@ -71,12 +81,13 @@ function scrollTo(id) {
                     <p>Temperatura: {{ dadosWeather.main.temp }}°C</p>
                     <p>Condição: {{ dadosWeather.weather[0].description }}</p>
                 </div>
-            
-            </form>
-                <div v-if="error" class="border-1 border-amber-50 text-red-500 text-lg p-2">
-                    <p class="flex-wrap">Erro ao obter os dados do clima. Verifique a cidade ou tente novamente mais tarde.</p>
 
-                </div>
+            </form>
+            <div v-if="error" class="border-1 border-amber-50 text-red-500 text-lg p-2">
+                <p class="flex-wrap">Erro ao obter os dados do clima. Verifique a cidade ou tente novamente mais tarde.
+                </p>
+
+            </div>
         </div>
         <!-- 
          <div>
