@@ -50,7 +50,7 @@
             </div>
 
             <!-- Benefícios -->
-            <section class="flex justify-between">
+            <section class="sm:flex justify-between">
                 <div>
                     <h3 class="text-2xl font-semibold text-blue-600 mb-4">✅ Benefícios para o usuário</h3>
                     <ul class="list-disc list-inside text-gray-700 space-y-2">

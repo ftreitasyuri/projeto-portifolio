@@ -98,7 +98,7 @@ function scrollTo(id) {
       <button type="submit"
         class="bg-third w-full rounded-md h-12 text-lg text-white font-bold hover:cursor-pointer sm:text-2xl">Enviar</button>
     </form> -->
-    <div class="w-full sm:flex justify-end">
+    <div class="w-full flex mt-5 justify-end">
       <i class="fa-solid fa-up-long border-1 rounded-full p-4 hover:bg-second hover:cursor-pointer "
         @click.prevent="scrollTo('inicio')"></i>
     </div>

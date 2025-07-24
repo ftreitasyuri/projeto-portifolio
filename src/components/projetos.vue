@@ -8,7 +8,7 @@ import { RouterLink } from 'vue-router';
     <main id="projetos" class="w-full flex flex-col gap-10 sm:justify-center sm:items-center mt-10 p-10 ">
         <span class="text-center text-4xl mb-10">Projetos</span>
 
-        <div class="flex flex-col sm:flex-row gap-10">
+        <div class="flex flex-col flex-wrap sm:flex-row gap-10">
             <!-- Card -->
             <a href="https://smartechenter.com" target="_blank">
                 <div
@@ -16,11 +16,11 @@ import { RouterLink } from 'vue-router';
                     <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg" alt="Imagem do site de chamados" class="sm:max-w-[30vw]                     
                     ">
                     <span class="text-center sm:text-2xl mt-2 mb-2">Portal Chamados - SMTE</span>
-                    <span class="text-center sm:text-lg p-2 flex-wrap">
+                    <!-- <span class="text-center sm:text-lg p-2 flex-wrap">
                         Site/App de chamados focado na interação do cliente junto ao help desk<br>
                         Acesso: yuri@dev.com <br>
                         Senha: Admin123
-                    </span>
+                    </span> -->
                 </div>
             </a>
 
@@ -31,11 +31,11 @@ import { RouterLink } from 'vue-router';
                     <img src="../assets/img_projects/CRM_DESKTOP.jpg" alt="Imagem do site de chamados" class="sm:max-w-[30vw]                     
                     ">
                     <span class="text-center sm:text-2xl mt-2 mb-2">CRM - SMTE</span>
-                    <span class="text-center sm:text-lg p-2 flex-wrap">
+                    <!-- <span class="text-center sm:text-lg p-2 flex-wrap">
                         Site/App CRM para gerenciamento de clientes, contatos, campanhas e leads<br>
                         Acesso: yuri@dev.com <br>
                         Senha: dmin123
-                    </span>
+                    </span> -->
                 </div>
             </router-link>
 
@@ -46,13 +46,14 @@ import { RouterLink } from 'vue-router';
                     <img src="../assets/img_projects/SITE_FORM_DESKTOP.jpg" alt="Imagem do site de chamados" class="sm:max-w-[30vw]                     
                     ">
                     <span class="text-center sm:text-2xl mt-2 mb-2">Gerenciador RH - SMTE</span>
-                    <span class="text-center sm:text-lg p-2 flex-wrap">
+                    <!-- <span class="text-center sm:text-lg p-2 flex-wrap">
                         Site/App Gerenciado de Recursos Humano<br>
                         Acesso: usuário <br>
                         Senha: xxxxxx
-                    </span>
+                    </span> -->
                 </div>
             </a>
+          
         </div>
 
     </main>
