@@ -1,29 +1,41 @@
-# novo-portfolio
+# 🌐 Projeto Portfólio - Yuri Freitas
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é o meu portfólio pessoal desenvolvido com Vue 3 + Vite + TailwindCSS. O objetivo é apresentar meus principais projetos, tecnologias utilizadas e uma forma fácil de entrar em contato comigo.
 
-## Recommended IDE Setup
+## ✨ Funcionalidades
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- ✅ Apresentação visual dos meus principais projetos
+- ✅ Contato com formulário funcional
+- ✅ Responsivo em dispositivos móveis
+- ✅ Hospedado no Vercel
 
-## Customize configuration
+## 💻 Tecnologias Utilizadas
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [EmailJS](https://www.emailjs.com/) para envio de mensagens
 
-## Project Setup
+## 📁 Projetos em Destaque
 
-```sh
-npm install
-```
+| Nome do Projeto        | Descrição                                                                 | Link                                                                 |
+|------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------|
+| CRM - Gestão de Clientes | Sistema completo com cadastro de contatos, email marketing, oportunidades | [Ver Projeto](https://crm-front-end-nine.vercel.app/)               |
+| Portal de Chamados     | Sistema de abertura e acompanhamento de tickets de suporte                | [Ver Projeto](https://smartechenter.com/login)                                                  |
+| Gerenciador de RH      | Aplicação para gestão de colaboradores e processos internos de RH         | [Ver Projeto](https://hr-management-xi-eight.vercel.app/login)                                                  |
 
-### Compile and Hot-Reload for Development
+## 🚀 Deploy
 
-```sh
-npm run dev
-```
+O projeto está disponível em:  
+🔗 [https://projeto-portifolio.vercel.app](https://projeto-portifolio-af9jaac1r-ftreitasyuris-projects.vercel.app/)
 
-### Compile and Minify for Production
+## 👨‍💻 Autor
 
-```sh
-npm run build
-```
+**Yuri Freitas**  
+📧 Email: smarttecxiii@gmail.com 
+🌐 [LinkedIn](https://www.linkedin.com/in/yuri-queiroz-77552419a/)  
+📁 [Repositório no GitHub](https://github.com/ftreitasyuri/projeto-portifolio)
+
+---
+
+> Este projeto é parte do meu esforço contínuo em aprender e crescer como desenvolvedor full stack. Fique à vontade para entrar em contato ou me dar sugestões!
