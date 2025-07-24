@@ -8,7 +8,7 @@ import { RouterLink } from 'vue-router';
     <main id="projetos" class="w-full flex flex-col gap-10 sm:justify-center sm:items-center mt-10 p-10 ">
         <span class="text-center text-4xl mb-10">Projetos</span>
 
-        <div class="flex flex-col flex-wrap sm:flex-row gap-10">
+        <div class="flex flex-col sm:flex-row gap-10">
             <!-- Card -->
             <a href="https://smartechenter.com" target="_blank">
                 <div
