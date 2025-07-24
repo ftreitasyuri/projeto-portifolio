@@ -8,9 +8,11 @@ import { RouterLink } from 'vue-router';
     <main id="projetos" class="w-full flex flex-col gap-10 sm:justify-center sm:items-center mt-10 p-10 ">
         <span class="text-center text-4xl mb-10">Projetos</span>
 
+
         <div class="flex flex-col sm:flex-row gap-10">
             <!-- Card -->
-            <a href="https://smartechenter.com" target="_blank">
+            <!-- <a href="https://smartechenter.com" target="_blank"> -->
+            <router-link to="chamados-smte">
                 <div
                     class="flex flex-col bg-third border-3 border-primary rounded-xl cursor-pointer hover:border-3 hover:border-gray-100 hover:transition-discrete">
                     <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg" alt="Imagem do site de chamados" class="sm:max-w-[30vw]                     
@@ -22,7 +24,8 @@ import { RouterLink } from 'vue-router';
                         Senha: Admin123
                     </span> -->
                 </div>
-            </a>
+            </router-link>
+            
 
             <!-- <a href="https://crm-front-end-nine.vercel.app" target="_blank"> -->
             <router-link to="crm-smte">
@@ -40,7 +43,8 @@ import { RouterLink } from 'vue-router';
             </router-link>
 
             <!-- </a> -->
-            <a href="https://hr-management-xi-eight.vercel.app" target="_blank">
+            <!-- <a href="https://hr-management-xi-eight.vercel.app" target="_blank"> -->
+            <router-link to="rhmgt-smte">
                 <div
                     class="flex flex-col bg-third border-3 border-primary rounded-xl cursor-pointer hover:border-3 hover:border-gray-100 hover:transition-discrete">
                     <img src="../assets/img_projects/SITE_FORM_DESKTOP.jpg" alt="Imagem do site de chamados" class="sm:max-w-[30vw]                     
@@ -52,7 +56,7 @@ import { RouterLink } from 'vue-router';
                         Senha: xxxxxx
                     </span> -->
                 </div>
-            </a>
+            </router-link>
           
         </div>
 

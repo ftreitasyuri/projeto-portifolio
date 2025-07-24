@@ -9,6 +9,7 @@ import router from '@/router';
 // https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid={ec3e5be3d5fd36e296904389ad345a7c}
 
 // Definindo variáveis reativas
+const rota = ref(router.currentRoute.value.path);
 const dadosWeather = ref({});
 const error = ref(null);
 
@@ -43,25 +44,41 @@ function scrollTo(id) {
     }
 }
 
+console.log('Rota atual:', rota.value);
+
 </script>
 <template>
     <main class="flex flex-col justify-around items-center p-4">
 
 
         <ul class="flex justify-center items-center gap-15 min-h-[10vh] ">
-            <div v-if="$router.path ==! 'crm-smte'" >
+
+            <!-- <div v-if="$router.path == ! 'crm-smte' || $router.path == ! 'chamados-smte' || $router.path == ! 'rhmgt-smte'">             -->
+            <div v-if="rota === '/'"
+            class="flex justify-center items-center gap-15 min-h-[10vh] ">
                 <li class="hover:cursor-pointer text-2xl"><a @click.prevent="scrollTo('inicio')">Início</a></li>
+                <li class="hover:cursor-pointer text-2xl"><a @click.prevent="scrollTo('projetos')">Projetos</a></li>
+                <li class="hover:cursor-pointer text-2xl"><a @click.prevent="scrollTo('contatos')">Contatos</a></li>
             </div>
-<!--  v-if="$route.path === '/'"> -->
-            <div v-else>
+
+
+            <div v-else class="flex justify-center items-center gap-15 min-h-[10vh] ">
+
                 <router-link to="/">
                     <li class="hover:cursor-pointer text-2xl">Início</li>
                 </router-link>
+                <!-- <router-link to="/projetos">
+                    <li class="hover:cursor-pointer text-2xl">Projetos</li>
+                </router-link>
+                <router-link to="/contatos">
+                    <li class="hover:cursor-pointer text-2xl">Contatos</li>
+                </router-link> -->
+
 
             </div>
-            <li class="hover:cursor-pointer text-2xl"><a @click.prevent="scrollTo('projetos')">Projetos</a></li>
-            <li class="hover:cursor-pointer text-2xl"><a @click.prevent="scrollTo('contatos')">Contatos</a></li>
+
         </ul>
+
 
         <div>
             <form action="" class="hidden sm:flex">

@@ -59,33 +59,42 @@
                         <li>Economia de tempo com envio de e-mails centralizados;</li>
                         <li>Organização e histórico acessível de clientes e serviços;</li>
                         <li>Interface amigável, responsiva e com dados consistentes.</li>
-                        <li class="text-blue-700"><a href="https://crm-front-end-nine.vercel.app/documentacoes" target="_blank">Link Documentação</a></li>
+
+                        <li>
+                            Usuário: yuri@dev.com &
+                            Senha: Admin123
+                        </li>
+                        <li class="text-blue-700"><a href="https://crm-front-end-nine.vercel.app/documentacoes"
+                                target="_blank">Link Documentação</a></li>
                     </ul>
                 </div>
                 <div>
                     <a href="https://crm-front-end-nine.vercel.app" target="_blank">
-                    <div
-                        class="flex flex-col bg-third border-3 border-primary rounded-xl cursor-pointer hover:border-3 hover:border-gray-100 hover:transition-discrete">
-                        <img src="../assets/img_projects/CRM_DESKTOP.jpg" alt="Imagem do site de chamados" class="sm:max-w-[30vw]                     
+                        <div
+                            class="flex flex-col bg-third border-3 border-primary rounded-xl cursor-pointer hover:border-3 hover:border-gray-100 hover:transition-discrete">
+                            <img src="../assets/img_projects/CRM_DESKTOP.jpg" alt="Imagem do site de chamados" class="sm:max-w-[30vw]                     
                     ">
-                    
-                        <!-- <span class="text-center sm:text-2xl mt-2 mb-2">CRM - SMTE</span> -->
-                        <!-- <span class="text-center sm:text-lg p-2 flex-wrap">
+
+                            <!-- <span class="text-center sm:text-2xl mt-2 mb-2">CRM - SMTE</span> -->
+                            <!-- <span class="text-center sm:text-lg p-2 flex-wrap">
                             Site/App CRM para gerenciamento de clientes, contatos, campanhas e leads<br>
                             Acesso: yuri@dev.com <br>
                             Senha: dmin123
                         </span> -->
-                    </div></a>
+                        </div>
+                    </a>
                 </div>
 
             </section>
             <section>
-                <div >
-                    <span class="text-primary"
-                    >OBS: Esse sistema está em desenvolvimento, novas features estão em preparação!</span>
+                <div>
+                  <span class="text-primary">
+                        OBS: Este sistema está em constante evolução e novas funcionalidades estão sendo<br>
+                        implementadas, como integração com outros sistemas e relatórios avançados!
+                    </span>
                 </div>
+                
             </section>
         </div>
     </section>
 </template>
-
