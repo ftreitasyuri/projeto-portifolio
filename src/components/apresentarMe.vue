@@ -24,7 +24,7 @@ const dadosClima = async () => {
 }
 
 // Limpar dados
-const limpaDados = () =>{
+const limpaDados = () => {
     cidade.value = '';
     dadosWeather.value = {};
 }
@@ -34,12 +34,21 @@ const limpaDados = () =>{
     <main>
         <section class="sm:flex flex-row gap-10 justify-center items-center p-5">
             <!-- Previão do tempo -->
-     
+
             <!-- Apresentação perfil -->
             <div class="flex flex-col gap-6 items-center  p-10">
-                <img alt="Foto de Perfil"
+                <!-- <img alt="Foto de Perfil"
                     class="rounded-full max-w-[65vw] w-[65vw] h-[30vh] sm:w-[15vw] mb-10 border-5 border-gray-50"
-                    src="@/assets/images/perfil.jpg" />
+                    src="@/assets/images/perfil.jpg" /> -->
+
+                <img alt="Foto de Perfil" src="@/assets/images/perfil.jpg" class="rounded-full border-[5px] border-gray-50  mx-auto
+                        max-w-[300px] 
+                        h-[30vh] w-[60vw] 
+                        sm:h-[20vh] sm:w-[60vw] 
+                        md:w-[20vw] 
+                        lg:h-[30vh] lg:w-[15vw] 
+                        mb-10" />
+
                 <span class="text-2xl sm:text-5xl">Yuri Freitas Queiroz</span>
                 <span class="text-fifth text-sm sm:text-xl">Desenvolvedor Full Stack (JavaScript e PHP)</span>
                 <span class="text-fifth sm:text-xl">Frameworks: Laravel e Vue</span>

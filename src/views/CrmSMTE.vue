@@ -74,6 +74,8 @@
                             class="flex flex-col bg-third border-3 border-primary rounded-xl cursor-pointer hover:border-3 hover:border-gray-100 hover:transition-discrete">
                             <img src="../assets/img_projects/CRM_DESKTOP.jpg" alt="Imagem do site de chamados" class="sm:max-w-[30vw]                     
                     ">
+                    
+
 
                             <!-- <span class="text-center sm:text-2xl mt-2 mb-2">CRM - SMTE</span> -->
                             <!-- <span class="text-center sm:text-lg p-2 flex-wrap">
@@ -83,6 +85,7 @@
                         </span> -->
                         </div>
                     </a>
+                  
                 </div>
 
             </section>
