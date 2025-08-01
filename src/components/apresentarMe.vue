@@ -50,10 +50,18 @@ const limpaDados = () => {
                         mb-10" />
 
                 <span class="text-2xl sm:text-5xl">Yuri Freitas Queiroz</span>
+                <details>
+                    <summary>Redes Sociais</summary>
+                    <div class="flex gap-2">
+                        <a class="text-lg border-1 border-second hover:border-1 hover:border-b-amber-200" href="https://www.linkedin.com/in/yuri-queiroz-77552419a/" target="_blank">Linkedin</a>
+                        <a class="text-lg border-1 border-second hover:border-1 hover:border-b-amber-200" href="https://github.com/ftreitasyuri" target="_blank">GitHub</a>                        
+                    </div>
+                </details>
+
                 <span class="text-fifth text-sm sm:text-xl">Desenvolvedor Full Stack (JavaScript e PHP)</span>
                 <span class="text-fifth sm:text-xl">Frameworks: Laravel e Vue</span>
-                <a href="https://www.linkedin.com/in/yuri-queiroz-77552419a/" target="_blank"
-                    class="text-fifth sm:text-xl hover:cursor-pointer">Meu Linkedin</a>
+                <!-- <a href="https://www.linkedin.com/in/yuri-queiroz-77552419a/" target="_blank"
+                    class="text-fifth sm:text-xl hover:cursor-pointer">Meu Linkedin</a> -->
 
                 <div class="flex sm:gap-5 mt-15">
                     <img class="w-[10vw] sm:w-[4vw] rounded-full border-1 " src="@/assets/images/php.jpg"
