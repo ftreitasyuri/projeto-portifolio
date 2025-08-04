@@ -58,7 +58,7 @@ const limpaDados = () => {
                     </div>
                 </details>
 
-                <span class="text-fifth text-sm sm:text-xl">Desenvolvedor Full Stack (JavaScript e PHP)</span>
+                <span class="text-fifth text-sm sm:text-xl">Desenvolvedor Full Stack (JavaScript, PHP e Python)</span>
                 <span class="text-fifth sm:text-xl">Frameworks: Laravel e Vue</span>
                 <!-- <a href="https://www.linkedin.com/in/yuri-queiroz-77552419a/" target="_blank"
                     class="text-fifth sm:text-xl hover:cursor-pointer">Meu Linkedin</a> -->
